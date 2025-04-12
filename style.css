@@ -8,7 +8,7 @@ body{
     /* CLASSES: ponto antes do nome*/
     display: flex;
     /* display flex para deixar em linhas / na horizontal*/
-    padding: 0 50px;
+    padding: 5px 50px;
     /* espaçamento pros cantos da tela / pras outras caixinhas */
     justify-content: space-between;
     /* sem espaço dos lados e espaços iguais entre si */
@@ -28,6 +28,8 @@ a{
     text-decoration: none;
     /* tirar o sublinhado no link */
     color: #a22437;
+    font-weight: bold;
+    /* links em negrito */
 }
 
 #logo{
@@ -48,6 +50,8 @@ a{
 
 #picture{
     width: 50%;
+    clip-path:circle(); 
+    /* deixa a foto um círculo - pode ser "border-radius: 50%" se for um quadrado */
 }
 
 .text{
@@ -58,15 +62,16 @@ a{
 .text h1{
     font-size: 35px;
     color:#a22437;
+    text-shadow: 2px 2px 3px #35122e;
+    /* sombra no texto */
 }
 
 .text p{
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 30px;
     /* distância do texto pro título */
     color: #35122e;
-    text-align: justify;
-        
+    text-align: justify;    
 }
 
 
